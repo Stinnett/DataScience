@@ -1,4 +1,4 @@
-# DataScience
+# DataScience Project: P2P Lending
 Working with big data sets to play with different data science concepts.
 
 Project description:
