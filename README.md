@@ -1,5 +1,4 @@
 # DataScience Project: P2P Lending
-Working with big data sets to play with different data science concepts.
 
 Project description:
 In the past several years, there has been tremendous growth in peer-to-peer (P2P) lending.  There are many websites that facilitate this; the largest few of these now have over a $1B marketcap.  This sites give users the option to either apply for a loan or to invest in a loan.  
@@ -14,7 +13,7 @@ These sites raise many questions:
 
 3) How do the above results compare to human performance ("gut instinct") on the site? How do they compare against the provided automated investing on certain sites?
 
-4) While most of the information provided by these sites is the same, there are some differences (e.g. ).  Is it possible the different information on one site allows us to make better decisions about investing?  
+4) While most of the information provided by these sites is the same, there are some differences (e.g. Prosper allows access to credit bureau underwriting data through their API).  Is it possible the different information on one site allows us to make better decisions about investing?  
 
 In this repo, I intend to answer these questions, with major emphasis on question 4.  Specifically, I plan to initially compare Lending Club and Prosper, two of the biggest P2P personal-loan sites.  Eventually, I'd like to add others as well.
 
@@ -23,7 +22,22 @@ The initial data for this project was downloaded pre-packaged from Lending Club 
 
 ----------------------------------------------------------------------------------------------------------------------------------
 Repo Contents
-  demo/Project_Demo.ipynb: notebook exploring the Lending Club dataset, with visualizations of what determines interest rate and which   loans have defaulted.
+  demo/Project_Demo.ipynb: notebook exploring the Lending Club dataset, with visualizations of what determines interest rate and which   loans have defaulted.  This also contains a simple implementation of a random forest classifier for predicting "bad" loans
   
 ----------------------------------------------------------------------------------------------------------------------------------
 Data is currently hosted locally only; eventually it will be moved to an AWS S3 bucket.
+
+----------------------------------------------------------------------------------------------------------------------------------
+Project plan of action
+
+1) Initial data exploration
+
+2) Data accumulation: use APIs to gather data from multiple lending sites
+
+3) Classifier implementation: random forests, neural networks, etc.  Also, decision by committee?
+
+4) Optimal investing strategy as a function of acceptable risk
+
+5) Site comparison- given what I know, what site is the "best"?
+
+???) Profit
