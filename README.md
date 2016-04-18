@@ -7,6 +7,7 @@ In the past several years, there has been tremendous growth in peer-to-peer (P2P
 For the investor, the sites generally provide much (anonymized) detail about the applicant.  Income, whether they have a mortgage or if they rent, location, credit history, and so on.  These sites also typically have their own rating system for applicants that combines this information to give an idea of how likely they are to actually pay off their loan (users with better ratings also get better interest rates).  
 
 These sites raise many questions:
+
 1) Using machine learning or regression techniques on the supplied data, how well can we predict whether loans will default or not?
 
 2) Given an algorithm's accuracy, what is an optimal investing strategy as a function of acceptable risk?
